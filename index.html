@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="I am a highly skilled front-end developer with over 1 year of experience in developing and implementing web applications. I have a passion for creating visually appealing and intuitive interfaces that enhance the user experience. My expertise includes HTML, CSS, JavaScript, Bootstrap and jQuery. I am also proficient in using front-end framework React. I am a self-starter and enjoy working independently as well as in a team environment. I am excited to take on new challenges and continue to grow my skills as a front-end developer."
+    />
+    <meta
+      name="keywords"
+      content="Front end, Web development, Angular, Typescript, Javascript, parcel, babel, Postman ,HTML, CSS, Firebase, bootstrap, Jquery, git, github, bash"
+    />
+    <meta name="author" content="Islam Ali" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icons/favicon.jpg" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dev Islam Ali</title>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+    <!-- Main Script file-->
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <a href="" data-link="home" class="logo">Portfo<span>lio.</span></a>
+        <ul>
+          <li data-link="home">
+            <a href="" class="active" id="target">Home</a>
+          </li>
+          <li data-link="about"><a href="" id="target">About</a></li>
+          <li data-link="portfolio"><a href="" id="target">Portfolio</a></li>
+          <li data-link="skills"><a href="" id="target">Skills</a></li>
+          <li data-link="contact"><a href="" id="target">Conatct</a></li>
+        </ul>
+        <span class="btn-navbar"><i class="fas fa-bars"></i></span>
+      </div>
+    </nav>
+
+    <!-- Main section -->
+    <main class="home">
+      <div class="container">
+        <div class="main-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Islam Ali</div>
+          <div class="text-3">And I'm a <span class="typed"></span></div>
+          <a data-link="contact" class="btn btn-contact">Contact me</a>
+          <div class="social">
+            <a
+              href="https://www.facebook.com/islam.ali.khattab/"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/islam_aliii" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/islam.ali.khattab/"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://github.com/IslamAlii" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/islam-ali-959893143/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- About section-->
+    <section class="about" id="about">
+      <h2 class="section-heading">About me</h2>
+      <div class="container">
+        <div class="image">
+          <img src="images/personal-image.jpg" alt="Personal Image" />
+        </div>
+        <div class="text">
+          <h3 class="title">
+            I'm Islam Ali I'm a <span class="typed2"></span>
+          </h3>
+          <p class="text-content">
+            I am a highly skilled front-end developer with over 1 year of
+            experience in developing and implementing web applications. I have a
+            passion for creating visually appealing and intuitive interfaces
+            that enhance the user experience. My expertise includes HTML, CSS,
+            JavaScript, Bootstrap and jQuery. I am also proficient in using
+            front-end framework React. I am a self-starter and enjoy working
+            independently as well as in a team environment. I am excited to take
+            on new challenges and continue to grow my skills as a front-end
+            developer.
+          </p>
+          <a href="cv.pdf" target="_blank" class="btn" download="">
+            Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+      <h2 class="section-heading">My Portfolio</h2>
+      <div class="container">
+        <div class="categories">
+          <button data-category="all" class="btn category-btn active">
+            All
+          </button>
+          <!-- <button data-category="angular" class="btn category-btn">
+            Angular
+          </button> -->
+          <!-- <button data-category="typescript" class="btn category-btn">
+            Typescript
+          </button> -->
+          <button data-category="js" class="btn category-btn">
+            JavaScript
+          </button>
+          <!-- <button data-category="jquery" class="btn category-btn">
+            JQuery
+          </button> -->
+          <button data-category="sass" class="btn category-btn">Sass</button>
+          <!-- <button data-category="firebase" class="btn category-btn">
+            Firebase
+          </button> -->
+        </div>
+
+        <div class="projects">
+          <div data-category="js sass" class="project">
+            <div class="project-overlay"></div>
+            <a
+              href="https://islamalii.github.io/forkify/"
+              target="_blank"
+              class="visit"
+              ><i class="fas fa-link"></i> Vist the site</a
+            >
+            <img src="images/projects/forkify.jpg" alt="Forkify project" />
+          </div>
+
+          <div data-category="js" class="project">
+            <div class="project-overlay"></div>
+            <a
+              href="https://islamalii-mapty.netlify.app/"
+              target="_blank"
+              class="visit"
+              ><i class="fas fa-link"></i> Vist the site</a
+            >
+            <img src="images/projects/mapty.jpg" alt="Mapty project" />
+          </div>
+
+          <div data-category="js" class="project">
+            <div class="project-overlay"></div>
+            <a
+              href="https://islamalii-omnifood.netlify.app/"
+              target="_blank"
+              class="visit"
+              ><i class="fas fa-link"></i> Vist the site</a
+            >
+            <img src="images/projects/omnifood.jpg" alt="Aroma Shop project" />
+          </div>
+
+          <div data-category="js sass" class="project">
+            <div class="project-overlay"></div>
+            <a
+              href="https://islamalii.github.io/couchly/"
+              target="_blank"
+              class="visit"
+              ><i class="fas fa-link"></i> Vist the site</a
+            >
+            <img src="images/projects/couchly.jpg" alt="Aroma Shop project" />
+          </div>
+
+          <div data-category="js" class="project">
+            <div class="project-overlay"></div>
+            <a
+              href="https://islamalii.github.io/Aroma-Shop/"
+              target="_blank"
+              class="visit"
+              ><i class="fas fa-link"></i> Vist the site</a
+            >
+            <img
+              src="images/projects/aroma-shop.jpg"
+              alt="Aroma Shop project"
+            />
+          </div>
+
+          <div data-category="js" class="project">
+            <div class="project-overlay"></div>
+            <a
+              href="https://islamalii.github.io/Royal-Hotel/"
+              target="_blank"
+              class="visit"
+              ><i class="fas fa-link"></i> Vist the site</a
+            >
+            <img
+              src="images/projects/royal-hotel.jpg"
+              alt="Royal Hotel project"
+            />
+          </div>
+
+          <div data-category="js" class="project">
+            <div class="project-overlay"></div>
+            <a
+              href=" https://islamalii.github.io/Coffee-Shop/"
+              target="_blank"
+              class="visit"
+              ><i class="fas fa-link"></i> Vist the site</a
+            >
+            <img
+              src="images/projects/coffee-shop.jpg"
+              alt="Coffee Blend project"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills">
+      <h2 class="section-heading">My skills</h2>
+      <div class="container">
+        <div class="text">
+          <h3 class="title">My creative skills & experiences.</h3>
+          <p class="text-content">
+            Implements web designs using the three main web languages (HTML, CSS
+            & Javascript). Also using the most common framworks and libraries
+            such as (Bootstrap & jQuery). And taking into consideration to make
+            the website fully responsive.
+          </p>
+          <a data-link="contact" class="btn btn-contact">Contact me</a>
+        </div>
+
+        <div class="graphs">
+          <div class="graph" data-percent="80%">
+            <span class="tech">
+              <img src="icons/angular.svg" alt="Angular icon" />
+              Angular</span
+            >
+            <span class="percent">80%</span>
+            <span class="gradient"></span>
+            <span class="color"></span>
+          </div>
+
+          <div class="graph" data-percent="80%">
+            <span class="tech">
+              <img src="icons/ts.svg" alt="TypeScript icon" />
+              Typescript</span
+            >
+            <span class="percent">80%</span>
+            <span class="gradient"></span>
+            <span class="color"></span>
+          </div>
+
+          <div class="graph" data-percent="85%">
+            <span class="tech">
+              <img src="icons/js.svg" alt="JavaScript icon" />
+              JavaScript</span
+            >
+            <span class="percent">85%</span>
+            <span class="gradient"></span>
+            <span class="color"></span>
+          </div>
+
+          <div class="graph" data-percent="95%">
+            <span class="tech">
+              <img src="icons/html.svg" alt="HTML icon" />
+              HTML</span
+            >
+            <span class="percent">95%</span>
+            <span class="gradient"></span>
+            <span class="color"></span>
+          </div>
+
+          <div class="graph" data-percent="85%">
+            <span class="tech">
+              <img src="icons/css.svg" alt="CSS icon" />
+              CSS</span
+            >
+            <span class="percent">85%</span>
+            <span class="gradient"></span>
+            <span class="color"></span>
+          </div>
+
+          <div class="graph" data-percent="85%">
+            <span class="tech">
+              <img src="icons/sass.svg" alt="Sass icon" />
+              Sass</span
+            >
+            <span class="percent">85%</span>
+            <span class="gradient"></span>
+            <span class="color"></span>
+          </div>
+
+          <div class="graph" data-percent="75%">
+            <span class="tech">
+              <img src="icons/bootstrap.svg" alt="Bootstrap icon" />
+              Bootstrap</span
+            >
+            <span class="percent">75%</span>
+            <span class="gradient"></span>
+            <span class="color"></span>
+          </div>
+
+          <div class="graph" data-percent="70%">
+            <span class="tech">
+              <img src="icons/jquery.svg" alt="jQuery icon" />
+              jQuery</span
+            >
+            <span class="percent">70%</span>
+            <span class="gradient"></span>
+            <span class="color"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2 class="section-heading">Contact me</h2>
+      <div class="container">
+        <div class="text">
+          <h3 class="title">Get in touch</h3>
+          <p class="text-content" style="color: grey">
+            You are always welcome to be in touch with us, Call us or send us a
+            message.
+          </p>
+          <div class="icon-container">
+            <i class="fas fa-user"></i>
+            <div>
+              <span>Name</span>
+              <span>Islam Ali</span>
+            </div>
+          </div>
+          <div class="icon-container">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span>Address</span>
+              <span>Cairo, Egypt</span>
+            </div>
+          </div>
+          <div class="icon-container">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span>Email</span>
+              <span>
+                <a href="mailto:islam.ali.khattab@gmail.com"
+                  >islam.ali.khattab@gmail.com</a
+                >
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <form id="contact-form">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              data-minLength="2"
+              data-maxLength="15"
+            />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@gmail.com" />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-control">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              placeholder="Enter subject"
+              data-minLength="2"
+              data-maxLength="15"
+            />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="write what in your mind"
+              data-minLength="5"
+            ></textarea>
+            <span class="error-message"></span>
+          </div>
+          <button class="btn" id="submit-contact" disabled>Send message</button>
+        </form>
+
+        <!-- <button class="btn btn--fill" id="submit-contact-us">
+            Send message
+          </button> -->
+
+        <!-- <form id="contact-form">
+          <input type="text" name="name" placeholder="Name" id="name" />
+          <input type="email" name="email" placeholder="Email" id="email" />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            id="subject"
+          />
+          <textarea
+            name="message"
+            placeholder="Message"
+            id="message"
+          ></textarea>
+          <button class="btn">Send message</button>
+        </form> -->
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Created By
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/islam-ali-959893143/"
+          >Islam Ali</a
+        >
+        | &copy; 2023 All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
+
+<!-- <form>
+  <div class="form-control">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      placeholder="Enter your name"
+      data-minLength="2"
+      data-maxLength="15"
+    />
+    <span class="error-message"></span>
+  </div>
+
+  <div class="form-control">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="example@gmail.com" />
+    <span class="error-message"></span>
+  </div>
+
+  <div class="form-control">
+    <label for="subject">Subject</label>
+    <input type="tel" id="subject" placeholder="Enter subject" />
+    <span class="error-message"></span>
+  </div>
+
+  <div class="form-control">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      placeholder="write what in your mind"
+      data-minLength="5"
+    ></textarea>
+    <span class="error-message"></span>
+  </div>
+  <button class="btn btn--fill" id="submit-contact-us">Send message</button>
+</form> -->
